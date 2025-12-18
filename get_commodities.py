@@ -1,9 +1,9 @@
-# importar a biblioteca
+# import library
 
-# Selecionar as empresas ou forex
+# Select currency
 
-# extrair os dados 
+# Extract datas 
 
 
-#tratar os dados e retornar o resultado
+#Load datas from file csv or database
 
