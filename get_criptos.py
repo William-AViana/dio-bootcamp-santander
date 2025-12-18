@@ -1,12 +1,23 @@
 import requests
+import locale
+from datetime import datetime
 
-# BTC ETH SOL
-URL = 'https://api.coinbase.com/v2/prices/BTC-USD/spot'
 
-# For para cada cripto
+URL = 'https://api.coinbase.com/v2/prices/BTC-BRL/spot'
+
 response = requests.get(URL)
-print(response.json())
 
-#Extrair os dados de interesse
+data = response.json()
 
-#criar um arquivo ou enviar para o banco de dados
+#transform data on object and extract informations
+locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+
+data_and_hour = datetime.now().strftime("%d-%M-%Y %H:%M")
+base = data['data']['base']
+result_price = float(data['data']['amount'])
+price_format = locale.currency(result_price, grouping=True)
+currency = data['data']['currency']
+
+print(base, currency, price_format, data_and_hour)
+
+#create file or send informationsfrom database
