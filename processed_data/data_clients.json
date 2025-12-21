@@ -1,0 +1,192 @@
+[
+    {
+        "id":1,
+        "name":"Ana",
+        "account_id":1001,
+        "account_number":"78858-9",
+        "account_agency":1,
+        "account_balance":2333.09,
+        "account_limit":500.0,
+        "card_id":2001,
+        "card_number":"**** **** **** 7648",
+        "card_limit":1100.0,
+        "features":"Seguros",
+        "news":[
+            {
+                "id":"5540",
+                "description":"Ana, Bitcoin a R$ 489k! \ud83d\ude80 O futuro \u00e9 cripto. Invista agora!"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name":"Bruno",
+        "account_id":1002,
+        "account_number":"32705-4",
+        "account_agency":1,
+        "account_balance":3279.85,
+        "account_limit":500.0,
+        "card_id":2002,
+        "card_number":"**** **** **** 7816",
+        "card_limit":1200.0,
+        "features":"Pix;Investimentos",
+        "news":[
+            {
+                "id":"2174",
+                "description":"Bruno, Bitcoin a R$489k! \ud83d\ude80 Oportunidade de ouro. Invista agora!"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "name":"Carlos",
+        "account_id":1003,
+        "account_number":"44555-9",
+        "account_agency":1,
+        "account_balance":216.18,
+        "account_limit":500.0,
+        "card_id":2003,
+        "card_number":"**** **** **** 1073",
+        "card_limit":1300.0,
+        "features":"Seguros",
+        "news":[
+            {
+                "id":"2024",
+                "description":"Carlos, Bitcoin a R$489.497,63: A hora \u00e9 agora! Invista no futuro financeiro."
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"Daniela",
+        "account_id":1004,
+        "account_number":"73603-8",
+        "account_agency":1,
+        "account_balance":4854.09,
+        "account_limit":500.0,
+        "card_id":2004,
+        "card_number":"**** **** **** 1524",
+        "card_limit":1400.0,
+        "features":"Pix;Investimentos",
+        "news":[
+            {
+                "id":"4257",
+                "description":"Daniela, Bitcoin a R$489.497! Invista agora, futuro financeiro!"
+            }
+        ]
+    },
+    {
+        "id":5,
+        "name":"Eduardo",
+        "account_id":1005,
+        "account_number":"54549-7",
+        "account_agency":1,
+        "account_balance":2460.22,
+        "account_limit":500.0,
+        "card_id":2005,
+        "card_number":"**** **** **** 4753",
+        "card_limit":1500.0,
+        "features":"Seguros",
+        "news":[
+            {
+                "id":"6474",
+                "description":"Eduardo, Bitcoin a R$489.497,63! \ud83d\ude80 O futuro \u00e9 agora. Invista!"
+            }
+        ]
+    },
+    {
+        "id":6,
+        "name":"Fernanda",
+        "account_id":1006,
+        "account_number":"99297-5",
+        "account_agency":1,
+        "account_balance":3298.82,
+        "account_limit":500.0,
+        "card_id":2006,
+        "card_number":"**** **** **** 9778",
+        "card_limit":1600.0,
+        "features":"Pix;Investimentos",
+        "news":[
+            {
+                "id":"6926",
+                "description":"Fernanda, Bitcoin R$489.497,63. Uma revolu\u00e7\u00e3o! \ud83d\ude80"
+            }
+        ]
+    },
+    {
+        "id":7,
+        "name":"Gabriel",
+        "account_id":1007,
+        "account_number":"39078-9",
+        "account_agency":1,
+        "account_balance":3358.1,
+        "account_limit":500.0,
+        "card_id":2007,
+        "card_number":"**** **** **** 6929",
+        "card_limit":1700.0,
+        "features":"Seguros",
+        "news":[
+            {
+                "id":"8939",
+                "description":"Gabriel, com Bitcoin a R$ 489.497, a hora \u00e9 agora! Invista."
+            }
+        ]
+    },
+    {
+        "id":8,
+        "name":"Helena",
+        "account_id":1008,
+        "account_number":"37846-3",
+        "account_agency":1,
+        "account_balance":1983.92,
+        "account_limit":500.0,
+        "card_id":2008,
+        "card_number":"**** **** **** 2340",
+        "card_limit":1800.0,
+        "features":"Pix;Investimentos",
+        "news":[
+            {
+                "id":"3845",
+                "description":"Helena, Bitcoin a R$489k! \u00d3tima hora para investir em cripto. \ud83d\ude80"
+            }
+        ]
+    },
+    {
+        "id":9,
+        "name":"Igor",
+        "account_id":1009,
+        "account_number":"83547-4",
+        "account_agency":1,
+        "account_balance":4620.78,
+        "account_limit":500.0,
+        "card_id":2009,
+        "card_number":"**** **** **** 3654",
+        "card_limit":1900.0,
+        "features":"Seguros",
+        "news":[
+            {
+                "id":"4529",
+                "description":"Igor, Bitcoin a R$ 489.497,63: oportunidade \u00fanica para lucrar com criptos!"
+            }
+        ]
+    },
+    {
+        "id":10,
+        "name":"Juliana",
+        "account_id":1010,
+        "account_number":"27321-6",
+        "account_agency":1,
+        "account_balance":3688.33,
+        "account_limit":500.0,
+        "card_id":2010,
+        "card_number":"**** **** **** 6966",
+        "card_limit":2000.0,
+        "features":"Pix;Investimentos",
+        "news":[
+            {
+                "id":"8933",
+                "description":"Juliana, Bitcoin a R$489.497,63: A hora \u00e9 agora! Invista no futuro."
+            }
+        ]
+    }
+]
