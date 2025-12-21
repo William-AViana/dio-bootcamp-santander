@@ -1,9 +1,12 @@
 import pandas as pd
 import random
-import os
-from extract_clients import read_and_return_users
+from extract_clients import read_file_and_return_users
+from create_directory import create_dir_whith_file
+
 
 def generate_clients_to_cvs():
+    directory = create_dir_whith_file()
+    
     names = [
         "Ana", "Bruno", "Carlos", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", 
         "Igor", "Juliana"
@@ -28,10 +31,12 @@ def generate_clients_to_cvs():
             "features": "Pix;Investimentos" if i % 2 == 0 else "Seguros",
             "news":""
         }
+        
         data_list.append(record)
-
+        
     df = pd.DataFrame(data_list)
-
-    df.to_csv('clients.csv', index=False, encoding='utf-8')
     
-    return read_and_return_users()
+    
+    df.to_csv(directory, index=False, encoding='utf-8')
+    
+    return read_file_and_return_users()
