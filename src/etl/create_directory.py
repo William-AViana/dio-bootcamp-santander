@@ -6,4 +6,4 @@ def create_dir_whith_file():
     source.mkdir(parents=True, exist_ok=True)
     
     folder_path = source / 'clients.csv'
-    return folder_path    
+    return folder_path
