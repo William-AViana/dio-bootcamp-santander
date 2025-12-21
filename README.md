@@ -4,10 +4,10 @@ Bootcamp sobre ciência de dados com python
 ## Desafio: Criar um pipelinde de dados.
 ### Passos para criar uma pipeline simples.
 
-* Criar uma conexão com uma API do mercado de criptomoedas.
-* Extrair os dados de interesse (valor da criptomoeda).
+* Criar uma conexão com uma API do mercado de cripto moedas.
+* Extrair os dados de interesse (valor da cripto moeda).
 * Criar uma lista de clientes.
-* Transformar e enrriquecer os dados.
+* Transformar e enriquecer os dados.
 * Carregar os dados em formato JSON
 
 
@@ -19,6 +19,6 @@ Bootcamp sobre ciência de dados com python
 
 - O arquivo ```extract.py``` faz a leitura do csv, extrai os dados e faz o tratamento do atributo "news" de cada usuário para transformar em uma lista.
 
-- O arquivo ```get_criptos.py``` acessa uma API de valores de criptomoedas, neste caso estou consumindo e tratando os dados do valor do Bitcoin.
+- O arquivo ```get_criptos.py``` acessa uma API de valores de cripto moedas, neste caso estou consumindo e tratando os dados do valor do Bitcoin.
 
-- O arquivo ```transform.py``` recebe os dados em csv dos clientes e o retorno da API de criptomoedas, para enrriquecer os dados dos clientes, utilizei a API do Gemini para enviar mensagens personalizadas sobre investimentos em Bitcoin e retornar os dados no formato JSON dentro da pasta ```processed_data```
+- O arquivo ```transform.py``` recebe os dados em csv dos clientes e o retorno da API de cripto moedas, para enriquecer os dados dos clientes, utilizei a API do Gemini para enviar mensagens personalizadas sobre investimentos em Bitcoin e retornar os dados no formato JSON dentro da pasta ```processed_data```
