@@ -1,7 +1,7 @@
 import requests
 import locale
 from datetime import datetime
-
+import pandas as pd
 
 URL = 'https://api.coinbase.com/v2/prices/BTC-BRL/spot'
 
@@ -11,13 +11,15 @@ data = response.json()
 
 #transform data on object and extract informations
 locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
-
-data_and_hour = datetime.now().strftime("%d-%M-%Y %H:%M")
-base = data['data']['base']
 result_price = float(data['data']['amount'])
-price_format = locale.currency(result_price, grouping=True)
-currency = data['data']['currency']
+df = pd.DataFrame([{
+    'Ativo': data['data']['base'],
+    'Moeda': data['data']['currency'],
+    'Preço': locale.currency(result_price, grouping=True),
+    'Data': datetime.now().strftime("%d-%M-%Y %H:%M")
+    }])
 
-print(base, currency, price_format, data_and_hour)
+
+print(df)
 
 #create file or send informationsfrom database
