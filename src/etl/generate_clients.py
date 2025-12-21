@@ -1,11 +1,11 @@
 import pandas as pd
 import random
-from extract_clients import read_file_and_return_users
-from create_directory import create_dir_whith_file
+from extract import read_file_and_return_users
+from create_directory import create_dir_whith_file_csv
 
 
 def generate_clients_to_cvs():
-    directory = create_dir_whith_file()
+    directory = create_dir_whith_file_csv()
     
     names = [
         "Ana", "Bruno", "Carlos", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", 
